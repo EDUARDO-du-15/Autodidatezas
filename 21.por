@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Util --> u
+	inclua biblioteca Util --> u
 	
 	funcao inicio()
 	{
@@ -37,7 +37,7 @@ programa
 			}senao{
 				escreva(" Então você ganhou!")
 			}
-		}enquanto(continuar != 0)
+		}enquanto(continuar != 0)
 	}
 }
 /* $$$ Portugol Studio $$$ 
