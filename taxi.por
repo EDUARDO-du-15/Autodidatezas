@@ -1,40 +1,17 @@
 programa
 {
-
+	
 	funcao inicio()
 	{
-		real mI, mF, gD, kmA, tG, l, kmL, gC
-
-		escreva("Marcação inicial do odômetro: ")
-		leia(mI)
-		escreva("Marcação final do odômetro: ")
-		leia(mF)
-		escreva("Gasto de combustível em litros: ")
-		leia(gC)
-		escreva("Ganho do dia: ")
-		leia(gD)
-
-		kmA = mF - mI
-		tG = gC * 2.5
-		l = gD - tG
-		kmL = kmA / gC
-
-		se(kmA >= 0){
-			escreva("Você andou: ", kmA, " km, gastou: ", gC, " L e ", tG, " RS, tendo lucro de: ", l, " RS e aproveitamento por litro de: ", kmL, " Km/L")
-		}senao{
-			escreva("Erro")
-		}
+		titulo()
+	}funcao titulo(){
+escreva(" _________  _______   ________  _____ ______   ___  ________   ________  ___               ________  ___  ___  _______   ________  _________   \n")
+escreva("|\\___   ___\\\\  ___ \\ |\\   __  \\|\\   _ \\  _   \\|\\  \\|\\   ___  \\|\\   __  \\|\\  \\             |\\   __  \\|\\  \\|\\  \\|\\  ___ \\ |\\   ____\\|\\___   ___\\ \n")
+escreva("\\|___ \\  \\_\\ \\   __/|\\ \\  \\|\\  \\ \\  \\\\\\__\\ \\  \\ \\  \\ \\  \\\\ \\  \\ \\  \\|\\  \\ \\  \\            \\ \\  \\|\\  \\ \\  \\\\\\  \\ \\   __/|\\ \\  \\___|\\|___ \\  \\_| \n")
+escreva("     \\ \\  \\ \\ \\  \\_|/_\\ \\   _  _\\ \\  \\\\|__| \\  \\ \\  \\ \\  \\\\ \\  \\ \\   __  \\ \\  \\            \\ \\  \\\\\\  \\ \\  \\\\\\  \\ \\  \\_|/_\\ \\_____  \\   \\ \\  \\  \n")
+escreva("      \\ \\  \\ \\ \\  \\_|\\ \\ \\  \\\\  \\\\ \\  \\    \\ \\  \\ \\  \\ \\  \\\\ \\  \\ \\  \\ \\  \\ \\  \\____        \\ \\  \\\\\\  \\ \\  \\\\\\  \\ \\  \\_|\\ \\|____|\\  \\   \\ \\  \\ \n")
+escreva("       \\ \\__\\ \\ \\_______\\ \\__\\\\ _\\\\ \\__\\    \\ \\__\\ \\__\\ \\__\\\\ \\__\\ \\__\\ \\__\\ \\_______\\       \\ \\_____  \\ \\_______\\ \\_______\\____\\_\\  \\   \\ \\__\\")
+escreva("\n        \\|__|  \\|_______|\\|__|\\|__|\\|__|     \\|__|\\|__|\\|__| \\|__|\\|__|\\|__|\\|_______|        \\|___| \\__\\|_______|\\|_______|\\_________\\   \\|__|")
+escreva("\n                                                                                                    \\|__|                  \\|_________|        \n")
 	}
 }
-
-/* $$$ Portugol Studio $$$ 
- * 
- * Esta seção do arquivo guarda informações do Portugol Studio.
- * Você pode apagá-la se estiver utilizando outro editor.
- * 
- * @POSICAO-CURSOR = 138; 
- * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
- * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
- * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
- */
